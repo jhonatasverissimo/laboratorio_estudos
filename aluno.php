@@ -10,7 +10,6 @@
 
 
 
-
 <!-- JQUERY E JS --> 
 <script src="jquery/jquery-3.4.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
