@@ -34,25 +34,7 @@
     </div>
   </nav>
 
-  <!-- Formulário 
   
-  <div class="container-fluid bg-dark" id="containerForm">
-    <div class="row d-flex">
-      <div class=" col-6 align-self-center">
-        <form id="frmLogin" class="align-middle">  
-          <label for="email">Endereço de email</label>
-          <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email"><br>
-          <label for="senha">Senha</label>
-          <input type="password" name="senha" id="senha"class="form-control align-middle" placeholder="Digite sua senha"><br>
-          <input type="checkbox" name="" class="">
-          <label>Visualizar</label><br><br>
-          <button class="btn btn-primary ml-auto mr-auto">Logar</button>
-        </form>
-      </div>
-    </div>
-  </div>
-  -->
-
   <div class="container mt-5">
     <div class="row d-flex pt-5">
       <div class="col-sm-12 col-md-6 mr-auto ml-auto">
