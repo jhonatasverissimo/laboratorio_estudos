@@ -39,32 +39,34 @@
 
   <!-- Carroussel -->
   <section>
-        <div class="container">
-            <div id="" class="carousel slide" data-ride="carousel">
+        <div class="container-fluid">
+            <div id="controle" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     
                     <!-- Item 1 -->
                     <div class="carousel-item active">
-                        <div class="row">
+                        <div class="container">
+                          <div class="row">
                             <div class="col d-flex pt-5 pb-5">
                                 <div class="align-self-center">
                                 <center>
-                                    <h1 class="display-4">Sua escola ainda não possui uma plataforma online?</h1>
+                                    <h1 class="display-4">Sua escola ainda não possui uma plataforma?</h1>
                                     <p class="display-5">O laboratório de estudos te ajuda com isso.</p>
                                     <button class="btn btn-outline-warning">Saiba mais</button>
                                 </center>
                                 </div>
-                            </div>
+                              </div>
                             <div class="col d-none d-md-block">
                                 <img src="css/imagens/velocidade.png" class="img-fluid" alt="">
                             </div>
-                        </div>
+                          </div>
+                        </div> 
                     </div>
                     <!-- Item 1 -->
-
                     <!-- Item 2 -->
                     <div class="carousel-item">
-                        <div class="row">
+                        <div class="container">
+                          <div class="row">
                             <div class="col d-flex pt-5 pb-5">
                                 <div class="align-self-center">
                                 <center>
@@ -77,10 +79,21 @@
                             <div class="col d-none d-md-block">
                                 <img src="css/imagens/velocidade.png" class="img-fluid" alt="">
                             </div>
+                            </div>
                         </div>
                     </div>
                     <!-- Item 2 -->
                 </div>
+                
+                <!-- Controles -->
+                <a class="carousel-control-prev" href="#controle" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#controle" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </section>
@@ -116,8 +129,7 @@
         <p></p>
       </div>
     </div>
-  </section>
-
+  </section> 
   <!-- PARA A ESCOLA-->
   
   <!-- BENEFICIOS -->
