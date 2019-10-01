@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+  <meta charset="utf-8">
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -123,11 +124,26 @@
 
   <!-- PARA A ESCOLA ESCOLA -->
   <section>
-    <div class="container-fluid">
-      <div class="row">
-        <h1 class="display-1"> Para as escolas</h1>
-        <p></p>
+    <div class="container" style='border-bottom:1px solid black '>
+    
+      <div class="row pt-5 pb-5">
+        <div class="col d-flex">
+          <div class="align-self-center">
+            <h1 class="display-3">Para escolas</h1>
+            <p class="pt-5" style='font-size: 25px'>
+              O laboratório de estudos é uma plataforma para escolas profissionalizantes, que oferece
+              uma área onde você possa disponibilizar aulas complementares para seus alunos e uma área
+              personalizada para sua escola.
+            </p>
+          </div>
+        </div>
+        <div class="col d-none d-sm-flex justify-content-center ">
+          <div class="align-self-center">
+            <img src="css/imagens/escola.png" class="img-fluid">
+          </div>
+        </div>
       </div>
+    
     </div>
   </section> 
   <!-- PARA A ESCOLA-->

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+  <meta charset="utf-8">
   <title>Home</title>
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -37,14 +38,14 @@
   
   <div class="container mt-5">
     <div class="row d-flex pt-5">
-      <div class="col-sm-12 col-md-6 mr-auto ml-auto">
-        <form action="" class="form-group p-5 bg-info text-black">
-          <label for="email">Endereço de email</label>
-          <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email"><br>
-          <label for="senha">Senha</label>
+      <div class="col-sm-12 col-lg-6 mr-auto ml-auto">
+        <form action="" class="form-group p-5 text-info border border-info rounded-top rounded-bottom">
+          <label for="email" class="col-form-label text-info">Endereço de email</label>
+          <input type="email" name="email" id="email" class="form-control text-info" placeholder="Digite o seu email"><br>
+          <label for="senha" class="col-form-label text-info">Senha</label>
           <input type="password" name="senha" id="senha"class="form-control align-middle" placeholder="Digite sua senha"><br>
           <input type="checkbox" name="" class="">
-          <label>Visualizar</label><br><br>
+          <label >Visualizar</label><br><br>
 
           <!-- Verificar como alinhar sem o center -->
           <center><button class="btn btn-primary ml-auto mr-auto">Logar</button></center>
