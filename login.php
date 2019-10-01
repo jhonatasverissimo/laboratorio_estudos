@@ -26,7 +26,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center" href="#">Sobre nós</a>
+          <a class="nav-link text-center" href="sobre.php">Sobre nós</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-center btn btn-outline-warning  ml-4" href="login.php">Entrar</a>

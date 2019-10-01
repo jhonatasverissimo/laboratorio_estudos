@@ -28,7 +28,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center" href="#">Sobre nós</a>
+          <a class="nav-link text-center" href="sobre.php">Sobre nós</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-center btn btn-outline-warning  ml-4" href="login.php">Entrar</a>
@@ -124,7 +124,7 @@
 
   <!-- PARA A ESCOLA ESCOLA -->
   <section>
-    <div class="container" style='border-bottom:1px solid black '>
+    <div class="container" id="escola" style='border-bottom:1px solid black '>
     
       <div class="row pt-5 pb-5">
         <div class="col d-flex">
@@ -172,6 +172,23 @@
   </section>
   <!--  BENEFICIOS  -->
 
+  <!-- ALUNOS -->
+  <section>
+    <div class="container">
+      <div class="row ">
+        <div class="col text-center">
+          <h1 class="display-2">Alunos</h1>
+          <p style="font-size:25px">Acesse conteúdo extras da sua escola como livros digitais, videoaulas!</p>
+        </div>
+      </div>
+      <div class="row text-center pt-5 pb-5">
+        <div class="col">
+        <i class="fas fa-user-graduate fa-10x text-warning"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ALUNOS -->
   <!-- RODAPÉ -->
   <footer>
     <div class="container-fluid pt-3 pb-3 bg-dark navbar-light">
